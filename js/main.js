@@ -15,7 +15,7 @@ GameState.prototype.preload = function() {
     
     this.game.load.audio('bgMusic','assets/bgMusic.wav');
     
-    console.log('preload');
+    console.log('preload, going on coffee break for 5 minutes and then I might consider loading things');
     
 };
 
