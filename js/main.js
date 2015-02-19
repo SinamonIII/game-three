@@ -21,12 +21,12 @@ GameState.prototype.preload = function() {
 
 GameState.prototype.create = function() {
 	
-	console.log('create');
+	console.log('ahhhh there we go.  create');
 	
 	this.game.physics.startSystem(Phaser.Physics.ARCADE);
 	
 	
-	console.log('adding sound, this is likely to take forever');
+	console.log('adding sound');
 	
 	this.audio = this.game.add.audio('bgMusic');
 	this.audio.addMarker('bgMusic', 0, 166, 0.05, true);
