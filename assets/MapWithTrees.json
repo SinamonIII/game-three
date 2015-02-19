@@ -54,71 +54,7 @@
                  "y":535
                 }, 
                 {
-                 "height":36,
-                 "id":6,
-                 "name":"",
-                 "properties":
-                    {
-                     "sprite":"powerUp",
-                     "type":"item"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":1021,
-                 "y":523
-                }, 
-                {
-                 "height":36,
-                 "id":10,
-                 "name":"",
-                 "properties":
-                    {
-                     "sprite":"powerUp",
-                     "type":"item"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":1388,
-                 "y":493
-                }, 
-                {
-                 "height":36,
-                 "id":11,
-                 "name":"",
-                 "properties":
-                    {
-                     "sprite":"powerUp",
-                     "type":"item"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":736,
-                 "y":351
-                }, 
-                {
-                 "height":36,
-                 "id":12,
-                 "name":"",
-                 "properties":
-                    {
-                     "sprite":"powerUp",
-                     "type":"item"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":903,
-                 "y":194
-                }, 
-                {
-                 "height":36,
+                 "height":17,
                  "id":13,
                  "name":"",
                  "properties":
@@ -129,9 +65,9 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":24,
-                 "x":510,
-                 "y":797
+                 "width":12,
+                 "x":518.115419296664,
+                 "y":817.739404869252
                 }, 
                 {
                  "ellipse":true,
@@ -148,6 +84,70 @@
                  "width":29,
                  "x":108,
                  "y":865
+                }, 
+                {
+                 "height":17,
+                 "id":16,
+                 "name":"",
+                 "properties":
+                    {
+                     "sprite":"powerUp",
+                     "type":"item"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":12,
+                 "x":1002.59634516033,
+                 "y":532.595405832373
+                }, 
+                {
+                 "height":17,
+                 "id":17,
+                 "name":"",
+                 "properties":
+                    {
+                     "sprite":"powerUp",
+                     "type":"item"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":12,
+                 "x":780.57337432219,
+                 "y":360.527603432817
+                }, 
+                {
+                 "height":17,
+                 "id":18,
+                 "name":"",
+                 "properties":
+                    {
+                     "sprite":"powerUp",
+                     "type":"item"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":12,
+                 "x":1377.04662482388,
+                 "y":371.628751974724
+                }, 
+                {
+                 "height":17,
+                 "id":19,
+                 "name":"",
+                 "properties":
+                    {
+                     "sprite":"powerUp",
+                     "type":"item"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":12,
+                 "x":1134.06378232408,
+                 "y":821.96952276421
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -189,7 +189,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":16,
+ "nextobjectid":20,
  "orientation":"orthogonal",
  "properties":
     {

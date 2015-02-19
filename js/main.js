@@ -8,7 +8,7 @@ GameState.prototype.preload = function() {
 	this.load.tilemap('map', 'assets/MapWithTrees.json', null, Phaser.Tilemap.TILED_JSON);
     this.load.image('gameTiles', 'assets/RPGMakerTileset.png');
     
-    this.load.image('powerUp', 'assets/Lava.png');
+    this.load.image('powerUp', 'assets/dagger.png');
     
     this.game.load.spritesheet('player', 'assets/guy.png', 32, 48, 16);
     this.game.load.spritesheet('villan', 'assets/villan.png', 32, 48, 16);
@@ -114,6 +114,7 @@ GameState.prototype.createItems = function() {
     result.forEach(function(element){
       this.createFromTiledObject(element, this.items);
     }, this);
+    this.items.scale.setTo(0.5,0.5);
   };
   
   
@@ -134,7 +135,7 @@ GameState.prototype.createItems = function() {
   
   //create a sprite from an object
   GameState.prototype.createFromTiledObject = function(element, group) {
-    var sprite = group.create(element.x, element.y, element.properties.sprite);
+    var sprite = group.create(element.x * 2, element.y * 2, element.properties.sprite);
 
       //copy all properties to the sprite
       Object.keys(element.properties).forEach(function(key){
