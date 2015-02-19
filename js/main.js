@@ -21,11 +21,15 @@ GameState.prototype.preload = function() {
 
 GameState.prototype.create = function() {
 	
+	console.log('create');
+	
 	this.game.physics.startSystem(Phaser.Physics.ARCADE);
 	
 	
 	this.audio = this.game.add.audio('bgMusic');
 	this.audio.addMarker('bgMusic', 0, 166, 0.05, true);
+	
+	console.log('added sound');
 	
     this.map = this.game.add.tilemap('map');
     
@@ -33,7 +37,7 @@ GameState.prototype.create = function() {
     this.map.addTilesetImage('RPGMakerTileset', 'gameTiles');
 
     
-    
+    console.log('adding layers and objects');
     
    		 //Create Layers
     
@@ -61,7 +65,7 @@ GameState.prototype.create = function() {
 	this.nonCollidingTerrainBack = this.map.createLayer('nonCollidingTerrainBack');
     this.nonCollidingTerrainFront = this.map.createLayer('nonCollidingTerrainFront');
     
-
+	console.log('done adding layers and objects');
 
     //enable collision for the colliding layer
     this.map.setCollisionBetween(1, 10000, true, 'collidingTerrain');
