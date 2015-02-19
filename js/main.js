@@ -26,6 +26,8 @@ GameState.prototype.create = function() {
 	this.game.physics.startSystem(Phaser.Physics.ARCADE);
 	
 	
+	console.log('adding sound, this is likely to take forever');
+	
 	this.audio = this.game.add.audio('bgMusic');
 	this.audio.addMarker('bgMusic', 0, 166, 0.05, true);
 	
