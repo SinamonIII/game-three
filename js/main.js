@@ -15,6 +15,8 @@ GameState.prototype.preload = function() {
     
     this.game.load.audio('bgMusic','assets/bgMusic.wav');
     
+    console.log('preload');
+    
 };
 
 GameState.prototype.create = function() {
